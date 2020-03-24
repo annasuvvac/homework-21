@@ -8,4 +8,4 @@ Node,
 Express
 MongoDB
 
-<img src="public/img/book.png">
+<img src="client/public/img/book.png">
