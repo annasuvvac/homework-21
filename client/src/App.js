@@ -1,10 +1,11 @@
 import React from "react";
+// import logo from "./logo.svg";
+import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Books from "./pages/Books";
-import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
+import Search from "./pages/Search";
+import Saved from "./pages/Saved";
 import Nav from "./components/Nav";
-import FormSearch from "./pages/FormSearch";
+import NoMatch from "./pages/NoMatch";
 
 function App() {
   return (
@@ -12,10 +13,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Books} />
-          <Route exact path="/books" component={Books} />
-          <Route exact path="/books/:id" component={Detail} />
-          <Route exact path="/search" component={FormSearch} />
+          <Route exact path="/" component={Search}/>
+          <Route exact path="/search" component={Search}/>
+          <Route exact path="/saved" component={Saved}/>
           <Route component={NoMatch} />
         </Switch>
       </div>
