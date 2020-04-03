@@ -1,6 +1,5 @@
 # GoogleBooksSearch
-
-https://github.com/yoonheekim/GoogleBooksSearch.git
+https://as-book-search.herokuapp.com/
 
 ## Overviews
 1. New React-based Google Books Search app. 
